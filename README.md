@@ -239,7 +239,13 @@ VIDEO_URL = f"{BACKEND_BASE}/video"
 ESP_IP = "10.87.74.192"     # Your ESP device IP address
 ESP_CMD_PORT = 8001         # ESP command port
 ```
+## 🔌 Hardware Setup
 
+
+<img width="1204" height="1600" alt="image" src="https://github.com/user-attachments/assets/51168a53-d19c-4fac-8b36-b9abe763bb82" />
+
+
+*Complete hardware assembly showing ESP32, GPS module, vibration motors, and connections*
 ### ESP Device Configuration
 
 Your ESP device should be configured to:
