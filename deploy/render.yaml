@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: shiftly-horcrux
+    env: docker
+    repo: https://github.com/ATHARVA316-DEV/SHIFTLY-HALLOWS-Horcrux2.0
+    branch: deploy/docker
+    plan: starter
+    buildCommand: ''
+    startCommand: ''
+    envVars:
+      - key: HEADLESS
+        value: "1"
+    autoDeploy: true
