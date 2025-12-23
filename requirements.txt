@@ -1,0 +1,13 @@
+streamlit
+streamlit-lottie
+streamlit-extras
+requests
+flask
+flask-cors
+werkzeug
+numpy
+opencv-python-headless
+onnxruntime
+gps3
+pyserial
+pynmea2
