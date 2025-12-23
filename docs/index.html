@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Horcrux Assistive App — Demo</title>
+  <style>body{font-family:Inter,system-ui,Segoe UI,Arial;margin:40px;color:#111}a{color:#0366d6}</style>
+</head>
+<body>
+  <h1>Horcrux Assistive App — Demo</h1>
+  <p>This repository contains a Streamlit frontend and a Flask backend (camera/ONNX). GitHub Pages can only host static files, so this page serves as a documentation/demo landing page.</p>
+
+  <h2>How to view/run the real app</h2>
+  <ul>
+    <li>Run locally with Docker (recommended). See <a href="/deploy/RENDER.md">deploy/RENDER.md</a> and the <a href="/deploy/README.md">deploy README</a>.</li>
+    <li>Or run the Flask + Streamlit apps locally (requires Python, OpenCV, ONNX):</li>
+  </ul>
+  <pre>docker build -t shiftly-horcrux:latest .
+docker run -p 8501:8501 -p 9999:9999 shiftly-horcrux:latest</pre>
+
+  <h2>What works on GitHub Pages</h2>
+  <p>This static site can include screenshots, usage instructions, and links to a hosted deployment (Render/Fly/Railway). Interactive camera/ML features require a server and cannot run on GitHub Pages.</p>
+
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://github.com/ATHARVA316-DEV/SHIFTLY-HALLOWS-Horcrux2.0">Repository</a></li>
+    <li><a href="/deploy/RENDER.md">Render deployment guide</a></li>
+  </ul>
+
+  <footer style="margin-top:40px;font-size:.9em;color:#555">Generated static demo for GitHub Pages.</footer>
+</body>
+</html>
